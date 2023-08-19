@@ -1,6 +1,9 @@
 FROM debian:jessie
 
-MAINTAINER t0kx <t0kx@protonmail.ch>
+LABEL t0kx <t0kx@protonmail.ch>
+
+# Fix the sources.list since debian Jessie no longer had a valid key.
+RUN printf "deb [trusted=yes] http://archive.debian.org/debian/ jessie main contrib non-free\ndeb [trusted=yes] http://archive.debian.org/debian-security jessie/updates main contrib non-free" > /etc/apt/sources.list
 
 # install debian stuff
 RUN apt-get update && \

@@ -7,6 +7,11 @@ The main purpose is to create a separate network and containers that can be refe
 
 This also allows you to have multiple containers listening on the same port to avoid confusing port mappings.
 
+## Updates
+package for vul-linux & win10 ok.
+but vagrant up for win10 still not working got WinRM issue as below.  
+![Alt text](./images/Screenshot%20from%202023-08-20%2006-08-09.png "a title")
+
 ## Usage
 
 Simply clone this repository and run:
