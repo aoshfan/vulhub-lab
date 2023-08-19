@@ -12,6 +12,14 @@ package for vul-linux & win10 ok.
 but vagrant up for win10 still not working got WinRM issue as below.  
 ![Alt text](./images/Screenshot%20from%202023-08-20%2006-08-09.png "a title")
 
+## FAST TESTING WIN10
+
+```bash
+mv docker-compose.yml docker-compose.yml.ori
+mv docker-compose-win10.yml docker-compose.yml
+docker-compose up
+```
+
 ## Usage
 
 Simply clone this repository and run:
