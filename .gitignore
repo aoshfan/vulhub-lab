@@ -45,3 +45,6 @@ config.py
 
 # VSCode
 .history
+
+# Log generate by apps
+merlin/server-log/
